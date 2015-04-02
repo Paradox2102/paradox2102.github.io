@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    {% include head.html %}
+    <body>
+    {% include header.html %}
+    <!-- No Javascript -->
+	<noscript><h1 class="centered">JavaScript is off. Please enable for the site to work propperly.<h1></noscript>
+    {{ content }}
+    </body>
+    {% include javascript.html %}
+    {% include footer.html %}
+</html>

@@ -1,0 +1,104 @@
+---
+layout: page
+---
+
+<!-- Stream Window -->
+<div id="stream" class="container-fluid">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="player" type="text/html" src="http://www.twitch.tv/ultra/embed" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!-- End Stream Window -->
+
+<!-- Stream Offline -->
+<div id="stream-offline" class="hidden container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="carousel slide" id="carousel-main">
+                <ol class="carousel-indicators">
+                    <li data-slide-to="0" data-target="#carousel-main">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-main">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-main" class="active">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/1" />
+                        <div class="carousel-caption">
+                            <h4>
+                                First Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/2" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Second Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/3" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Third Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                </div> <a class="left carousel-control" href="#carousel-main" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-main" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <h2>
+                Our Robot is offline!
+            </h2>
+            <p>
+                Try aother time, feel free to look at our about page.
+            </p>
+            <p>
+                <a class="btn" href="/about/">About »</a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- End Stream offline -->
+<!-- Register -->
+<div class="well no-round">
+    <div class="container">
+        <div class="centered row">
+            <div id="register" class="col-md-7 col-md-offset-2">
+                <div class="alert"><b>Want to Controll it?</b> Just fill in this info and you will be lined up!</div>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input id="register-input-email" type="text" class="form-control input-lg" placeholder="Email">
+                        <span class="button-checkbox">
+                        <button type="button" class="btn btn-lg" data-color="primary">Subscribe to our email list?</button>
+                        <input id="register-input-checkbox" type="checkbox" class="hidden" checked />
+                        </span>
+                    </div>
+                </form>
+                <br>
+                <div>
+                    <button role="submit" id="register-button" class="btn btn-lg btn-primary">Controll the Robot!</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Register -->
