@@ -1,7 +1,7 @@
 # Site settings
 title: A-X-R
 description: Robot, A-X-R
-url: "http://axr.com" # the base hostname & protocol for your site
+url: "http://a-x-r.github.io" # the base hostname & protocol for your site
 stream: "wferr"
 email: "blagh@axr.com"
 shortname: A-X-R
