@@ -1,10 +1,9 @@
 # Site settings
-title: A-X-R
-description: Robot, A-X-R
-url: "http://a-x-r.github.io" # the base hostname & protocol for your site
-stream: "wferr"
-email: "blagh@axr.com"
-shortname: A-X-R
+title: Team Paradox
+description: Robot, FRC
+url: "http://teamparadox2102.github.io" # the base hostname & protocol for your site
+email: "21@parad.ox"
+shortname: Paradox 2102
 exclude: [Gemfile]
 gems:
   - jekyll-redirect-from
