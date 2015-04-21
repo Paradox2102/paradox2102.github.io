@@ -1,7 +1,5 @@
-# A-X-R.github.io
-Jekyll Site for A-X-R Project
+# Paradox2102.github.io
+Jekyll Site for Team Paradox
 
 
-http://A-X-R.github.io
-
-Site has PHP which will not function on github hosting. But should do the job for now. (Design and etc..)
+http://Paradox2102.github.io
