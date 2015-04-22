@@ -3,3 +3,6 @@ Jekyll Site for Team Paradox
 
 
 http://Paradox2102.github.io
+
+Todo:
+alot
