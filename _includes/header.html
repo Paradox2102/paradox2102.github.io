@@ -14,27 +14,27 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown">
+                    <li class="no-round dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Team Info <span class="caret"></span></a>
-                        <ul class="no-round dropdown-menu" role="menu">
-                            <li><a href="/team/build/">Build</a></li>
-                            <li><a href="/team/logistics/">Logistics</a></li>
-                            <li><a href="/team/vision/">Vision</a></li>
-							<li><a href="/schedule/">Schedule</a></li>
+                        <ul class="dropdown-menu" role="menu">
+                        	<li><a href="/team/build/">Build</a></li>
+                        	<li><a href="/team/logistics/">Logistics</a></li>
+                        	<li><a href="/team/vision/">Vision</a></li>
+				<li><a href="/schedule/">Schedule</a></li>
                         </ul>
                     </li>                
-                    <li class="dropdown">
+                    <li class="no-round dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Outreach <span class="caret"></span></a>
-                        <ul class="no-round dropdown-menu" role="menu">
+                        <ul class="dropdown-menu" role="menu">
                             <li><a href="/fll-ftc/fll-mentoring/">FLL Mentoring</a></li>
                             <li><a href="/fll-ftc/fll-qualifing/">FLL Qualifying Tournament</a></li>
                         </ul>
                     </li>                     
                     <li><a href="/team/robots/">Robots</a></li>
                     <li><a href="/team/sponsors/">Sponsors</a></li>
-                    <li class="dropdown">
+                    <li class="no-round dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archive <span class="caret"></span></a>
-                        <ul class="no-round dropdown-menu" role="menu">
+                        <ul class="dropdown-menu" role="menu">
                             <li><a href="/archive/handbook/">Official Guides/Handbooks</a></li>
                             <li><a href="/archive/awards/">Award Submissions</a></li>
                             <li><a href="/archive/web-article/">Website Article</a></li>
@@ -47,9 +47,9 @@
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
+            <li class="no-round dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
-                <ul class="no-round dropdown-menu" role="menu">
+                <ul class="dropdown-menu" role="menu">
                     {% for post in site.posts limit:5 %}
                       <li><a href="{{ post.url}}">{{post.title}}</a></li>
                     {% endfor %}
