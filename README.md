@@ -6,3 +6,4 @@ http://Paradox2102.github.io
 
 Todo:
 alot
+add javascript for images
