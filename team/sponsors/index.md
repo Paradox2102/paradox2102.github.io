@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sponsors
-permalink: "/sponsors/"
 ---
 <div style="text-align:center" markdown="1">
 ![ROP](/resources/img/sponsors/ROP.png)	
