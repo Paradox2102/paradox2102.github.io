@@ -1,7 +1,7 @@
 # Site settings
 title: Team Paradox
 description: Robot, FRC
-url: "http://teamparadox2102.github.io" # the base hostname & protocol for your site
+url: "http://paradox2102.github.io" # the base hostname & protocol for your site
 email: "21@parad.ox"
 shortname: Paradox 2102
 exclude: [Gemfile]
