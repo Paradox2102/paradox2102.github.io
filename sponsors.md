@@ -4,10 +4,10 @@ title: Sponsors
 permalink: "/sponsors/"
 ---
 
-![ROP](/resources/img/sponsors/ROP.jpg)
-![NASA](/resources/img/sponsors/NASA.jpg)
-![Nordson Asymtek](/resources/img/sponsors/Nordson-Asymtek.jpg)
-![Qualcomm](/resources/img/sponsors/Qualcommsmall.jpg)
-![ViaSat](/resources/img/sponsors/ViaSat.jpg)
-![SAIC](/resources/img/sponsors/SAIC.jpg)
-![Nypro](/resources/img/sponsors/Nypro.jpg)
+![ROP](/resources/img/sponsors/ROP.png)
+![NASA](/resources/img/sponsors/NASA.png)
+![Nordson Asymtek](/resources/img/sponsors/Nordson-Asymtek.png)
+![Qualcomm](/resources/img/sponsors/Qualcommsmall.png)
+![ViaSat](/resources/img/sponsors/ViaSat.png)
+![SAIC](/resources/img/sponsors/SAIC.png)
+![Nypro](/resources/img/sponsors/Nypro.png)
