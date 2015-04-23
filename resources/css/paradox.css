@@ -9,10 +9,6 @@
 	  top: 1px;
 }
 
-.navbar-toggle .icon-bar:nth-of-type(3) {
-  	top: 2px;
-}
-
 .navbar-toggle .icon-bar {
 	  position: relative;
 	  transition: all 200ms ease-in-out;
