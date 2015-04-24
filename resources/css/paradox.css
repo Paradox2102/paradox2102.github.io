@@ -1,5 +1,7 @@
 .centered {
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .no-round {
     border-radius: 0 !important;
