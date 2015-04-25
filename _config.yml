@@ -3,6 +3,8 @@ title: Team Paradox
 description: Robot, FRC
 url: "http://paradox2102.github.io" # the base hostname & protocol for your site
 email: "21@parad.ox"
+twitter: "potato.com"
+facebook: "potato.com"
 shortname: Paradox 2102
 exclude: [Gemfile]
 compress_html:
