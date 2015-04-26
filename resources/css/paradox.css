@@ -30,3 +30,7 @@
 	  top: -6px;
 	  transform: rotate(-45deg);
 }
+
+.no-padding {
+  padding:0;
+}
