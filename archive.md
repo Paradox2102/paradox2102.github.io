@@ -1,7 +1,7 @@
 ---
 layout: page-centered
 permalink: /blog/archive/
-title: A-X-R Blog Archive
+title: Blog Archive
 ---
 
 ##Posts
