@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Tutorials
-category: turotials
+title: Tutorial
+category: tutorial
 ---
 
 {% for post in site.posts %}
-  {% if post.categories contains 'turotials' %}
+  {% if post.categories contains 'tutorial' %}
 	<div class="post">
 		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<p class="meta">Date: {{ post.date }}</p>

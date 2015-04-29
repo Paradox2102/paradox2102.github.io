@@ -1,6 +1,6 @@
 ---
 layout: post
-category: tutorials
+category: tutorial
 title: 'Working With Solidworks'
 date: 2015-04-29 21:35
 ---
