@@ -1,5 +1,5 @@
 <header>
-    <nav class="no-round navbar navbar-inverse">
+    <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -13,7 +13,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="no-round dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Team Info <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="/team/build/">Build</a></li>
@@ -22,7 +22,7 @@
                             <li><a href="/schedule/">Schedule</a></li>
                         </ul>
                     </li>
-                    <li class="no-round dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Outreach <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="/team/fll-ftc/fll-mentoring/">FLL Mentoring</a></li>
@@ -32,7 +32,7 @@
                     </li>
                     <li><a href="/team/robots/">Robots</a></li>
                     <li><a href="/team/sponsors/">Sponsors</a></li>
-                    <li class="no-round dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archive <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="/archive/handbook/">Official Guides/Handbooks</a></li>
@@ -46,8 +46,8 @@
                     <li><a href="/team/contact/">Contact</a></li>
                     <li><a href="/team/merch/">Merchandise</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="no-round dropdown">
+                <ul class="navbar-right">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             {% for post in site.posts limit:5 %}
