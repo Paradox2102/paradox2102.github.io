@@ -24,6 +24,7 @@ layout: default
                     <ul class="no-padding" style="list-style-type:none">
                         {% for post in site.posts limit:5 %}
                             <li><a href="{{ post.url }}">{{ post.title}} - {{ post.date | date: "%-d %B" }}</a></li>
+                            <hr width="50%">
                         {% endfor %}
                     </ul>
                     <hr>
