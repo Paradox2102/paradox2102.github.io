@@ -18,15 +18,14 @@ layout: default
                         Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
                     </p>
                     <hr>
-                        <h4 class="centered">
-                        Recent Posts
-                        </h4>
-                        <ul style="list-style-type:none">
-                    {% for post in site.posts limit:5 %}
-                        <li><a href="{{ post.url }}">{{ post.title}} - {{ post.date | date: "%-d %B" }}</a></li>
-                    {% endfor %}
-                    <ul>
-
+                    <h4 class="centered">
+                    Recent Posts
+                    </h4>
+                    <ul style="list-style-type:none">
+                        {% for post in site.posts limit:5 %}
+                            <li><a href="{{ post.url }}">{{ post.title}} - {{ post.date | date: "%-d %B" }}</a></li>
+                        {% endfor %}
+                    </ul>
                     <hr>
                     <ul class="no-padding" style="list-style-type:none">
                         <li>
