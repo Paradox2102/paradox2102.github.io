@@ -1,11 +1,10 @@
 <hr>
 <footer>
-    <ul class="list-inline centered">
-        <li><p>Powerd by <a href="http://jekyllrb.com/">Jekyll</a></p></li>
+    <ul class="list-inline">
+        <li style="text-align: right"><p>Powerd by <a href="http://jekyllrb.com/">Jekyll</a></p></li>
         <li>&#151;</li>
-        <li><P>&copy; 2015 {{ site.shortname }}</p></li>
+        <li class="centered"><P>&copy; {{ site.time | date: '%y' }} {{ site.shortname }}</p></li>
         <li>&#151;</li>
-        <li><p>Email us at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p></li>
+        <li style="text-align: left"><p>Email us at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p></li>
     </ul>
-    <img class="centered" src="/resources/img/logos/paradoxsmall.png">
 </footer>
