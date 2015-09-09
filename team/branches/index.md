@@ -34,9 +34,3 @@ The Outreach branch is in charge of making sure **all events** the team does out
 
 ### Opportations
 The Operations branch is in charge of the **business administration** for the team. This includes the daunting tasks of scheduling *travel plans, writing grants, sponsor relations, school relations, registration and team member management*. On top of this they also handle our teams submission for FIRST **awards**. Check out past award submissions under the Archives tab then Award submissions and our amazing sponsors under the Sponsor tab.
-
-
-<hr>
-<a href="/team/branches/engineering/">Engineering</a>
-<a href="/team/branches/logistics/">Logistics</a>
-<a href="/team/branches/vision/">Vision</a>
