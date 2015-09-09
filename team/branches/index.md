@@ -4,9 +4,7 @@ title: Paradox Branches
 ---
 # Our Mission
 
-##### “Team Paradox aims to provide an outlet for students of all ages to discover and explore their passions for science, technology, engineering, art, and math (“STEAM”), by maintaining a student-run, community-supported FIRST Robotics team at San Dieguito High School Academy (SDA).”
-
--- *Team Paradox Mission Statement from 2015-2016 Business Plan*
+##### “Team Paradox aims to provide an outlet for students of all ages to discover and explore their passions for science, technology, engineering, art, and math (“STEAM”), by maintaining a student-run, community-supported FIRST Robotics team at San Dieguito High School Academy (SDA).” -- *Team Paradox Mission Statement from 2015-2016 Business Plan*
 
 This latest mission statement sums up in one sentence the large sprectrum that this team encoupasses. What makes us special is that we are a **student run team**. All the *writing, artwork, projects, events and much more* that the team produces, the students make happen. However, we would not be here if it wasn’t for the continuous support from our mentors, parent volunteers and, of course, the SDA faculty. 
 
