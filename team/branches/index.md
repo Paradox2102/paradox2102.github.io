@@ -11,7 +11,8 @@ This latest mission statement sums up in one sentence the large sprectrum that t
 As far as FRC teams go we’re pretty old, starting up in the 2007 season and running since. Throughout our teams history generations of student leaders have been stretching their skills sets and passing them down to future student leaders. This growing collection of skills and knowledge allows our team to continuously diversify and expand upon our educational experience. There is a notch for all skills in this team, from computer design and machining to photoshop and writing. Once more we work to make this team an environment of learning, through our different programs like Geared Learning or simply working one-on-one with experienced mentors in the field. We recognize the time commitment that members put into this team and work to make every moment valuable. 
 
 *We’re not just nerds with dangerous power tools*- everything we do get’s it’s drive form the enthusiasm of the students. Whatever you're interested in we will recognize and encourage that drive and always put the **Passion FIRST**. That’s the spirit of the team. It’s just who we are.
-# How we work: Team Branches
+
+## How we work: Team Branches
 
 As previously stated we are an FRC FIRST robotics team and at SDA we are one of the clubs, however, we function more as a small business being registered as a 501c3 non profit with the state of California.
 
