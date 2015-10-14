@@ -22,21 +22,21 @@ We are broken into 4 different branches.
 <hr>
 
 <div class="centered"><h3><a href="#">Engineering</a></h3></div>
-This branch is in charge of *designing, fabricating, programing and driving* our competition robot, along with other mechanical projects created throughout the year. They take the lead in educating rookies aspects of robotics. 
+This branch is in charge of *designing, fabricating, programing and driving* our competition robot, along with other mechanical projects created throughout the year. They take the lead in the education of rookies about robotics. 
 
-At SDA we are blessed with fully functioning, industrial grade **metal and wood shop**, the last in our district, where we are given the unique ability to fabricate our robots. To open this opportunity up to other FRC team we offer **open shop hours** during build season where teams can come in, have parts manufactured and learn about the tools we use. Check out all of our robots under the Robots tab.
+At SDA we are blessed with a fully functioning, industrial grade **metal and wood shop**, the last in our district, where we are given the unique ability to fabricate our robots. To share this opportunity with other FRC teams, we offer **open shop hours** during build season. Teams can come in, have parts manufactured and learn about the tools we use. Check out all of our robots under the Robots tab.
 
 <hr>
 
 <div class="centered"><h3><a href="#">Marketing</a></h3></div>
-Putting the A in STEAM. Marketing is in charge of our teams **image**. This includes making original T-Shirt, jacket and button designs new each year. They also manufacture these products, using our button press and SDA’s screen printing shop to print our T-shirts and jackets. You can find the fruits of these efforts for sale on the Merchandise tab. 
+Putting the A in STEAM. Marketing is in charge of our team’s **image.** This includes making original tee shirts, jacket and button designs each year. They manufacture these products, using our button press and SDA’s screen printing shop for the T-shirts and jackets. You can find the fruits of these efforts for sale on the Merchandise tab. 
 
 This branch is also in charge of our FLL support program. We mentor teams each year to prepare them for their competition along with putting on two official FLL qualifying tournaments at our school. Find out more about FLL under the FLL tab.
 
 <hr>
 
 <div class="centered"><h3><a href="#">Outreach</a></h3></div>
-The Outreach branch is in charge of making sure **all events** the team does out in the community are coordinated pulled together and accomplished. This includes yearly events along with finding new events to attend. Also they are in charge of all press releases in any form of media including TV airs and running this website. Find upcomming events under the schedule tab and articles on recent ones on the Home page.
+The Outreach branch is in charge of making sure **all events** the team does out in the community are coordinated, pulled together, and accomplished. This includes yearly events along with finding new events to attend. Outreach is also in charge of all press releases in any form of media- including TV  airs and running this website. Find upcoming events under the Schedule tab and articles about recent events on the home page.
 
 <hr>
 
