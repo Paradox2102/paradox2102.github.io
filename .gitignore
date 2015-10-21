@@ -1,6 +1,9 @@
+# Custom Files #
+################
 .settings
 _site
 .sass-cache
+
 # Compiled source #
 ###################
 *.com

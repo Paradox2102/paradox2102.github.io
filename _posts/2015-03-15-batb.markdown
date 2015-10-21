@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "We did awesome!"
+title:  "Battle At the Boarder was awesome!"
 date:   2015-10-17 17:39:00
+permalink: /blog/batb-2015/
 category: blog
 ---
 
-Saturday was “Battle at the Border.”  
+##Saturday was “Battle at the Border.”  
+
+![Battle At the Boarder](/resources/post-resources/img/batb-2015.jpg) 
 
 Battle at the Border is an off season competition at Francis Parker High School hosted by the Warlords and Holy Cows. This competition gave the robotics teams of San Diego an opportunity to compete using their improved robots from the previous year. The game “Recycle Rush” was fairly similar to what was used in competition except the human players were not allowed to throw litter across the field. This event also brought the addition of mentor battles. These competitions gave an opportunity to the mentors of the teams to compete against each other. Student members in the bleachers laughed as they watched their mentors scramble over totes and garbage cans, frantically building towers.
 
