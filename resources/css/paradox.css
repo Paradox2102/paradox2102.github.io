@@ -8,7 +8,7 @@
     border-radius: 0 !important;
 }
 
-//Via http://codepen.io/esassaman/pen/wrsvx/
+/*Via http://codepen.io/esassaman/pen/wrsvx/ */
 .navbar-toggle .icon-bar:nth-of-type(2) {
 	  top: 1px;
 }
@@ -36,7 +36,17 @@
   padding:0;
 }
 
-.med-image {
-	height: 900px;
-	width: 1600px;
+.image-fix {
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel-caption {
+	font-weight: 900;
+	background:rgba(0,0,0,0.5);
+	border-radius: 25px;
+	padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
 }

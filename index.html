@@ -13,14 +13,30 @@ layout: sidebar
         </li>
     </ol>
     <div class="carousel-inner">
-        <div class="item active">
-            <a href="http://sdarobotics.org/blog/2015/10/17/batb.html"> <img alt="" src="/resources/img/carousel/3.jpg" /> </a>
+        {% for post in site.posts limit:1 %}
+            <div class="item active">
+                <a href="{{ post.url }}">    
+                    <img alt="" src="{{ post.header-photo }}" />
+                    <div class="carousel-caption">
+                        <h4>
+                            {{ post.title }}
+                        </h4>
+                        <p>
+                            {{ post.subtitle }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+        
+        <div class="item">
+            <img alt="" src="/resources/img/carousel/3.jpg" />
             <div class="carousel-caption">
                 <h4>
-                Didn’t go to Battle at the Border?
+                First Lego League QT
                 </h4>
                 <p>
-                    See what you missed…
+                    Come help out at the annual FLL Qualifying Tournament on Nov 7th & 8th by signing up on the weekly e-mail.
                 </p>
             </div>
         </div>
