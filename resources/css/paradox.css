@@ -35,3 +35,8 @@
 .no-padding {
   padding:0;
 }
+
+.med-image {
+	height: 900px;
+	width: 1600px;
+}
