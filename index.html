@@ -22,7 +22,7 @@ layout: sidebar
                             {{ post.title }}
                         </h4>
                         <p>
-                            {{ post.subtitle }}
+                            {% if post.subtitle %}{{ post.subtitle }}{% else %}{{ post.content | strip_html | truncatewords: 5 }}...{% endif %}
                         </p>
                     </div>
                 </a>
