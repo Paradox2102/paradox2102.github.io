@@ -14,7 +14,4 @@ More info soon
     - Add Image to Navbar
 -   Finish Gallery implemitation
 -   Finish Docs Implimentation
-
---- 
-
-##Liscense
+    - Docs Need to be fit in properly.
