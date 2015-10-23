@@ -1,11 +1,11 @@
-# Paradox2102.github.io
+# Team Paradox 2102
 Jekyll Site for Team Paradox
 
 Viewable [Here!](http://sdarobotics.org)
 
 More info soon
 
-
+https://paradox-dev-wferr.c9.io/
 ---
 
 ##Todo List
