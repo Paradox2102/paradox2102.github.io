@@ -2,15 +2,18 @@
 layout: default
 ---
 <section class="docs">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4">
-        <article>
-          <div class="right hidden-xs">
-            <a href="https://github.com/Paradox2102/paradox2102.github.io/edit/master/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
-          </div>
-          <h1>{{ page.title }}</h1>
-          {{ content }}
-        </article>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <header class="post-header">
+                    <h1 class="post-title">{{ page.title }}</h1>
+                    <a class="hidden-xs" href="https://github.com/Paradox2102/paradox2102.github.io/edit/master/{{ page.path }}"><h3><i class="fa fa-pencil"></i>&nbsp;Improve this page</h3></a>
+                </header>
+                <hr>
+                <article class="post-content">
+                    {{ content }}
+                </article>
+            </div>
+        </div>
     </div>
 </section>
