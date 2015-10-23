@@ -1,6 +1,6 @@
 ---
 layout: page-centered
-permalink: /blog/archive/
+permalink: /posts/archive/
 title: Blog Archive
 ---
 
