@@ -50,3 +50,10 @@
     padding-bottom: 25px;
     padding-left: 10px;
 }
+
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}

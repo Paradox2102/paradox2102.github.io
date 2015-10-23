@@ -13,7 +13,7 @@ More info soon
 -   Add Dynamic Reizing NavBar [Example](http://www.bootply.com/109943)
     - Add Image to Navbar
 -   Finish Gallery implemitation
--   
+-   Finish Docs Implimentation
 
 --- 
 
