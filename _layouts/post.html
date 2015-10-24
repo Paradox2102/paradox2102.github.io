@@ -2,8 +2,9 @@
 layout: default
 ---
 <section class="post">
+    <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1">
             <header class="post-header">
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -13,5 +14,6 @@ layout: default
                 {{ content }}
             </article>
         </div>
+    </div>
     </div>
 </section>
