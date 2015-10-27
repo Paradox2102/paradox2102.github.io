@@ -15,3 +15,4 @@ https://paradox-dev-wferr.c9.io/
 -   Finish Gallery implemitation
 -   Finish Docs Implimentation
     - Docs Need to be fit in properly.
+-   Update Photos on the Robot Page
