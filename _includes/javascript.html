@@ -10,6 +10,7 @@
     <!--No Lightbox needed on this page -->
     {% endif %}
     <!-- Custom Javascript -->
+    <script src="/resources/js/konami.min.js"></script>
     <!-- Animated menu hamburger via http://codepen.io/esassaman/pen/wrsvx/ -->
     <script>
         $(document).ready(function() {
@@ -17,5 +18,15 @@
                 $(this).toggleClass("active");
             });
         });
+    </script>
+    <script>
+        $(document).on('keyup',
+            Konami.code(function() {
+            $('body').css('background-image', 'url("/resources/other/cena.jpg")');
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', '/resources/other/cena.mp3');
+            audioElement.setAttribute('autoplay', 'autoplay');
+            })
+        );
     </script>
 </section>
