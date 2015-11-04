@@ -1,0 +1,65 @@
+---
+#SCSS
+---
+.centered {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-round {
+  border-radius: 0 !important;
+}
+
+/*Via http://codepen.io/esassaman/pen/wrsvx/ */
+
+.navbar-toggle {
+  .icon-bar {
+    &:nth-of-type(2) {
+      top: 1px;
+    }
+    position: relative;
+    transition: all 200ms ease-in-out;
+  }
+  &.active .icon-bar {
+    &:nth-of-type(1) {
+      top: 6px;
+      transform: rotate(45deg);
+    }
+    &:nth-of-type(2) {
+      background-color: transparent;
+    }
+    &:nth-of-type(3) {
+      top: -6px;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.image-fix {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
