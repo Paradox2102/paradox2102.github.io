@@ -1,14 +1,13 @@
 ---
 layout: paradox
 ---
-<html lang="en">
-    {% include head.html %}
-    <body>
+<body>
     {% include header.html %}
     <!-- No Javascript -->
-	<noscript><h1 class="centered">JavaScript is off. Please enable for the site to work propperly.<h1></noscript>
+    <noscript>
+        <h1 class="centered">JavaScript is off. Please enable for the site to work propperly.<h1>
+    </noscript>
     {{ content }}
-    </body>
+</body>
     {% include javascript.html %}
     {% include footer.html %}
-</html>
