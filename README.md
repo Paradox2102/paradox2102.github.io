@@ -6,9 +6,6 @@ Viewable [Here!](http://sdarobotics.org)
 
 More info soon
 
-https://paradox-dev-wferr.c9.io/
-#To Preview it within Cloud9
-jekyll serve --host $IP --port $PORT --baseurl ''
 ---
 
 ##Todo List
