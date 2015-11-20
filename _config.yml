@@ -11,7 +11,7 @@ first: "http://www.usfirst.org/"
 bluealliance: "http://www.thebluealliance.com/team/2102"
 sda: "http://sd.sduhsd.net/"
 shortname: Paradox 2102
-exclude: [vendor]
+exclude: [vendor, Gemfile, Gemfile.lock, Guardfile]
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

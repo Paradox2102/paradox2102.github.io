@@ -12,7 +12,11 @@
    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝
 -->
 <!-- Made with lots of <3 From Team Paradox 2102, To see source look at https://github.com/Paradox2102/paradox2102.github.io -->
-{% include development.html %}
+{% if jekyll.environment == 'production' %}
+<!-- Production Site -->
+{% else %} 
+<!-- Development Site -->
+{% endif %}
 {% include head.html %}
 {{ content }}
 </html>
