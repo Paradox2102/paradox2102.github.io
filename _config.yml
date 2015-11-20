@@ -11,11 +11,12 @@ first: "http://www.usfirst.org/"
 bluealliance: "http://www.thebluealliance.com/team/2102"
 sda: "http://sd.sduhsd.net/"
 shortname: Paradox 2102
-exclude: [vendor, Gemfile, Gemfile.lock, Guardfile]
+exclude: [vendor, Gemfile, Gemfile.lock, Guardfile, README.md, TUTORIAL.md, CNAME]
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: all
   endings: all
+  profile: true
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
