@@ -1,0 +1,35 @@
+---
+#Jekyll
+---
+//colors
+$black:  black;
+$white: white;
+
+//fonts
+$font_0: Helvetica Neue;
+$font_1: Helvetica;
+$font_2: Arial;
+$font_3: sans-serif;
+
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	font-family: $font_0, $font_1, $font_2, $font_3;
+	display: flex;
+	align-items: center;
+}
+h1 {
+	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: -1px 0 $black, 0 1px $black, 1px 0 $black, 0 -1px $black;
+	color: $white;
+}
+h2 {
+	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: -1px 0 $black, 0 1px $black, 1px 0 $black, 0 -1px $black;
+	color: $white;
+}
+h3 {
+	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: -1px 0 $black, 0 1px $black, 1px 0 $black, 0 -1px $black;
+	color: $white;
+}

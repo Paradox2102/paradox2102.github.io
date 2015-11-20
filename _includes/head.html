@@ -10,6 +10,11 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/css/paradox.css">
+    {% if page.forohfor %}
+    <link rel="stylesheet" href="/resources/404/404.css">
+    {% else %}
+    <!-- No 404 CSS needed on this page -->
+    {% endif %}
     <link rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.css">
     {% if page.gallery %}<link rel="stylesheet" href="/resources/gallery/simple-lightbox/simplelightbox.min.css"{% else %}<!--No Lightbox needed on this page -->{% endif %}
     
