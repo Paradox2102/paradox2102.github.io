@@ -15,4 +15,4 @@ Guides
 Resources
 
 - [Example Link](/docs/example "Example link for adding more in the future")
-- [Example Link 2](/docs/example2 "Second Example Link for future use")
+- [Example Link 2](/docs/example "Second Example Link for future use")

@@ -16,7 +16,11 @@
     <!-- No 404 CSS needed on this page -->
     {% endif %}
     <link rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.css">
-    {% if page.gallery %}<link rel="stylesheet" href="/resources/gallery/simple-lightbox/simplelightbox.min.css"{% else %}<!--No Lightbox needed on this page -->{% endif %}
+    {% if page.gallery %}
+    <link rel="stylesheet" href="/resources/gallery/simple-lightbox/simplelightbox.min.css">
+    {% else %}
+    <!-- No Lightbox needed on this page -->
+    {% endif %}
     
     <!--Favicon stuff o,o -->
     <link rel="apple-touch-icon" sizes="57x57" href="/resources/img/favicon/apple-icon-57x57.png">
