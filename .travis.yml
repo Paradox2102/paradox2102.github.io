@@ -2,7 +2,13 @@ language: ruby
 rvm:
   - 2.1
 script:
+  - echo "Building Development Site"
+  - bundle exec "jekyll build"
+  - echo "Testing Site"
+  - bundle exec htmlproof ./_site --disable-external --check-html --check-favicon
+  - echo "Building Production Site"
   - bundle exec "JEKYLL_ENV=production jekyll build"
+  - echo "Testing Site"
   - bundle exec htmlproof ./_site --disable-external --check-html --check-favicon
 env:
   global:
