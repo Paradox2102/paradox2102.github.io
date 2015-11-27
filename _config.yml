@@ -17,6 +17,8 @@ compress_html:
   comments: all
   endings: all
   profile: false
+  ignore:
+    envs: [development]
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
