@@ -1,16 +1,35 @@
-# Site settings
+# site settings #
+#################
+
+#default site title
 title: Team Paradox
+shortname: Paradox 2102
+
 description: Team Paradox 2102 First Robotics Team Based in San Dieguito Academy
 keywords: FRC, Robotics, TeamParadox, 2102, SDA, San Dieguito Academy, First
-url: "http://sdarobotics.org" # the base hostname & protocol for your site
+
+#Site URL
+url: "http://sdarobotics.org"
+#Site EMAIL
 email: "paradox@sdarobotics.org"
+#Site TWITTER
 twitter: "https://twitter.com/paradox2102"
+#Side FACEBOOK
 facebook: "https://www.facebook.com/pages/FIRST-Robotics-Team-Paradox-2102/423421971073228"
+#site YOUTUBE
 youtube: "#"
-first: "http://www.usfirst.org/"
+#site FIRST
+first: "http://www.firstinspires.org/"
+#site BLUEALLIANCE
 bluealliance: "http://www.thebluealliance.com/team/2102"
+#site SCHOOL
 sda: "http://sd.sduhsd.net/"
-shortname: Paradox 2102
+
+
+
+# Development settings #
+########################
+
 exclude: [vendor, Gemfile, Gemfile.lock, Guardfile, README.md, TUTORIAL.md, CNAME]
 compress_html:
   clippings: all
@@ -22,3 +41,4 @@ compress_html:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+markdown: kramdown
