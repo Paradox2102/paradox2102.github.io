@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.1
+cache: bundler
 script:
   - echo "Building Development Site"
   - bundle exec "jekyll build"
