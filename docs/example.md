@@ -7,7 +7,7 @@ permalink: /docs/example/
 
 # Learning Markdown to make example posts like this is easy and fun.
 
-##You Can make Simple Lists!
+## You Can make Simple Lists!
 ---
 
 Make Simple Lists
@@ -26,11 +26,12 @@ Make Simple Lists
 
 ---
 
-# #[Or Link to a website!](https://sdarobotics.org)
+# [Or Link to a website!](https://sdarobotics.org)
 
 ---
 
 ## Even Tables!
+
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -43,6 +44,3 @@ Make Simple Lists
 ## Be *bold*!
 
 > And make **_Cool_** Things With lists and ETC
-
----
-
