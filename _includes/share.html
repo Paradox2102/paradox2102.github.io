@@ -1,0 +1,31 @@
+<!-- Button trigger modal -->
+<share data-toggle="modal" data-target="#shareTHIS">
+  Share This Page <i class="fa fa-share"></i>
+</share>
+
+<!-- Modal -->
+<div class="modal fade" id="shareTHIS" tabindex="-1" role="dialog" aria-labelledby="shareTHISLABEL">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title centered" id="shareTHISLABEL">Sharing is Caring</h4>
+      </div>
+      <div class="modal-body">
+          <h3>Share this on..</h3>
+            <h3 class="centered">
+                <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=paradox2102" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter-square"></i> Twitter</a>
+            </h3>
+            <h3 class="centered">
+                <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-official"></i> Facebook</a>
+            </h3>
+            <h3 class="centered">
+                <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-twitter-square"></i> Google+</a>
+            </h3>
+            <h3 class="centered">
+              <a href="mailto:?to=&body={{ page.title | uri_escape }}%20at%20{{ site.url }}{{ page.url }} ,&subject={{ page.title }}"><i class="fa fa-envelope-o"></i> Emaill</a>
+            </h3>
+      </div>
+    </div>
+  </div>
+</div>
