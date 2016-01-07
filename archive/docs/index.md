@@ -9,7 +9,9 @@ category: docs
 
 Team Building Resources
     
-- [Buisness Plan 2015-2016](/docs/resouces/pdf/BuisnesPlan2015-2016.pdf "Buisness Plan")
+- [Buisness Plan 2015-2016](/docs/resources/pdf/BusinessPlan2015-2016.pdf "Buisness Plan")
+
+
 Guides
 
 - [SolidWorks Install](/docs/solidworks "Solidworks Install Tutorial")
