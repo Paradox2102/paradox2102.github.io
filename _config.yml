@@ -41,4 +41,5 @@ compress_html:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-seo-tag
 markdown: kramdown
