@@ -110,6 +110,8 @@ GEM
       jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
+    jekyll-seo-tag (0.1.4)
+      jekyll (>= 2.0)
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.3.0)
       listen (~> 3.0)
@@ -181,6 +183,7 @@ DEPENDENCIES
   guard
   guard-livereload
   html-proofer
+  jekyll-seo-tag
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
