@@ -9,7 +9,7 @@ category: docs
 
 Team Building Resources
     
-- [Buisness Plan 2015-2016](/docs/resources/pdf/BusinessPlan2015-2016.pdf "Buisness Plan")
+- [Example Link 2](/docs/example "Second Example Link for future use")
 
 
 Guides
