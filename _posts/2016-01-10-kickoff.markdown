@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Our Kickoff 2016"
+subtitle: "Starting off build season strong."
+date:   2016-01-10 17:39:00
+permalink: /blog/2016-kickoff/
+category: blog
+header-photo: /resources/post-resources/img/2016-our-kickoff.jpg
+---
+
+
+![All team stargazing](/resources/post-resources/img/2016-our-kickoff.jpg){: .image-fix } 
+
+We at Team Paradox were ecstatic after coming home from helping host the first annual North Country Kickoff at ViaSat. The 2016 FIRST FRC game _FIRST Stronghold_ includes a medieval setting, complex field elements and will provide engineering challenges while being incredibly interesting because of it’s complex point system.
+
+Kickoff was held in our school’s library from 10am-3pm on Saturday and then 10am-3pm Sunday with a total of 70 students, mentors, alumni and parents attending. 
+
+We started by breaking into groups to analyze the 111 page game rule book. After each group had a clear understanding of their rules they presented to the team which led into a group discussion before breaking for lunch. After coming back in we did an activity where we were the robots to help the team better visualize what the game would look like. With this in mind we then started discussing strategies and came up with two main strategies, shooters and breachers. The Shooter strategy main focus is simply being able to score boulders in the high goal on the tower. While the Breacher strategy is to have a robot specifically designed to breach all of the opponent's defences.
+
+On Sunday, we met again and started discussing what mechanisms would work best for each strategy. We obtained pre-built defense field pieces from ViaSat and decided to test what type of drive train would work the best. We used our frisbee robot with its large wheels to give us an idea of what can get over the various defense terrains. By the end of the day, we had broken up into prototyping groups ready to start the construction of wooden prototypes on Monday. 
+
+Huge shout out to all the Parents that helped put lunch together both days! The taco bar and sandwiches were amazing!
