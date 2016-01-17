@@ -17,7 +17,7 @@ twitter: "https://twitter.com/paradox2102"
 #Site FACEBOOK
 facebook: "https://www.facebook.com/pages/FIRST-Robotics-Team-Paradox-2102/423421971073228"
 #Site YOUTUBE
-youtube: "#"
+youtube: "https://www.youtube.com/channel/UCLMasSMNnBn-Zzw4OL5usEw"
 #Site FIRST
 first: "http://www.firstinspires.org/"
 #Site BLUEALLIANCE
@@ -34,8 +34,8 @@ social:
   type: organization
   links: 
     - "https://www.facebook.com/FIRST-Robotics-Team-Paradox-2102-423421971073228/"
-    - "https://twitter.com/paradox2102" 
-
+    - "https://twitter.com/paradox2102"
+    - "https://www.youtube.com/channel/UCLMasSMNnBn-Zzw4OL5usEw"
 
 # Development settings #
 ########################
