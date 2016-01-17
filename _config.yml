@@ -14,17 +14,27 @@ url: "http://sdarobotics.org"
 email: "paradox@sdarobotics.org"
 #Site TWITTER
 twitter: "https://twitter.com/paradox2102"
-#Side FACEBOOK
+#Site FACEBOOK
 facebook: "https://www.facebook.com/pages/FIRST-Robotics-Team-Paradox-2102/423421971073228"
-#site YOUTUBE
+#Site YOUTUBE
 youtube: "#"
-#site FIRST
+#Site FIRST
 first: "http://www.firstinspires.org/"
-#site BLUEALLIANCE
+#Site BLUEALLIANCE
 bluealliance: "http://www.thebluealliance.com/team/2102"
-#site SCHOOL
+#Site SCHOOL
 sda: "http://sd.sduhsd.net/"
 
+# Jekyll-SEO-TAG settings #
+###########################
+twitter:
+  username: paradox2102
+logo: /resources/img/logos/paradoxlarge.png
+social:
+  type: organization
+  links: 
+    - "https://www.facebook.com/FIRST-Robotics-Team-Paradox-2102-423421971073228/"
+    - "https://twitter.com/paradox2102" 
 
 
 # Development settings #
