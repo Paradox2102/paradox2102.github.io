@@ -27,8 +27,6 @@ sda: "http://sd.sduhsd.net/"
 
 # Jekyll-SEO-TAG settings #
 ###########################
-twitter:
-  username: paradox2102
 logo: /resources/img/logos/paradoxlarge.png
 social:
   type: organization
