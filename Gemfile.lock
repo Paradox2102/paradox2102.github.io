@@ -184,6 +184,3 @@ DEPENDENCIES
   guard-livereload
   html-proofer
   jekyll-seo-tag
-
-BUNDLED WITH
-   1.11.2
