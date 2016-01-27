@@ -1,7 +1,7 @@
 # site settings #
 #################
 
-#default site title
+#Site Title
 title: Team Paradox
 shortname: Paradox 2102
 
@@ -46,6 +46,8 @@ compress_html:
   profile: false
   ignore:
     envs: [development]
+sass:
+  style: compressed
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
