@@ -1,0 +1,44 @@
+- name: McCarthy Foundation
+  image: /resources/img/sponsors/mccarthy.gif
+  url: ''
+  description: ''
+
+- name: ViaSat
+  image: /resources/img/sponsors/ViaSat.png
+  url: ''
+  description: ''
+
+- name: Nordson
+  image: /resources/img/sponsors/Nordson.png
+  url: ''
+  description: ''
+
+- name: Qualcomm
+  image: /resources/img/sponsors/Qualcommsmall.png
+  url: ''
+  description: ''
+
+- name: PlayBookHQ
+  image: /resources/img/sponsors/playbook.png
+  url: ''
+  description: ''
+
+- name: SAIC
+  image: /resources/img/sponsors/SAIC.png
+  url: ''
+  description: ''
+
+- name: ROP
+  image: /resources/img/sponsors/ROP.png
+  url: ''
+  description: ''
+
+- name: Permier Stainless
+  image: /resources/img/sponsors/permierstainless.jpg
+  url: ''
+  description: ''
+
+- name: AFCEA
+  image: /resources/img/sponsors/AFCEA.jpg
+  url: ''
+  description: ''

@@ -2,47 +2,25 @@
 layout: page
 title: Sponsors
 ---
-<div class="alert centered alert-success">
-  <strong>This is Incomplete!</strong> Please forgive this! Its still in the works.
-</div>
-<div class="container-fluid">
-	<div class="row">
-				<div class="col-md-4">
-				</div>
-				<div class="col-md-6">
-				<img class="image-fix" alt="McCarthy Foundation" src="/resources/img/sponsors/mccarthy.gif">
-				</div>
-	</div>
-	</div>
-	<div class="container">
-		<div class="row">
-				<div class="col-md-4">
-				<img class="image-fix" alt="ViaSat"src="/resources/img/sponsors/ViaSat.png">
-				</div>
-				<div class="col-md-4">
-				<img class="image-fix" alt="Nordson" src="/resources/img/sponsors/Nordson.png">
-				</div>
-				<div class="col-md-4">
-				<img class="image-fix" alt="Qualcomm"src="/resources/img/sponsors/Qualcommsmall.png">
-				</div>
-	</div>
-	<div class="row">
-		<div class="col-md-2">
-		<img class="image-fix" alt="PlayBookHQ" src="/resources/img/sponsors/playbook.png">	
-		</div>
-		<div class="col-md-2">
-		<img class="image-fix" alt="SAIC" src="/resources/img/sponsors/SAIC.png">
-		</div>
-		<div class="col-md-2">
-		<img class="image-fix" alt="ROP" src="/resources/img/sponsors/ROP.png">
-		</div>
-		<div class="col-md-2">
-		<img class="image-fix" alt="PermierStainless" src="/resources/img/sponsors/permierstainless.jpg"> 
-		</div>
-		<div class="col-md-2">
-		<img class="image-fix" alt="AFCEA" src="/resources/img/sponsors/AFCEA.jpg">
-		</div>
-		<div class="col-md-2">
-		</div>
-	</div>
+<div class="container">
+{% for sponsor in site.data.sponsors %}
+  {% assign mod = forloop.index0 | modulo:4 %}
+    {% if mod == 0 %}
+      <div class="row">
+    {% endif %}
+      <div class="col-md-3">
+        {% if sponsor.url != '' %}
+          <a href="{{ sponsor.url }}" target="_blank"><img class="img-responsive" alt="{{ sponsor.name }}"src="{{ sponsor.image }}"></a>
+        {% else %}
+          <img class="img-responsive" alt="{{ sponsor.name }}"src="{{ sponsor.image }}">
+        {% endif %}
+
+        {% if sponsor.description != '' %}
+          <p>{{sponsor.description}}</p>
+        {% endif %}
+      </div>
+    {% if mod == 3 or forloop.last %}
+      </div>
+    {% endif %}
+{% endfor %}
 </div>
