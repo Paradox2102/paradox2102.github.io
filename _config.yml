@@ -37,7 +37,7 @@ social:
 
 # Development settings #
 ########################
-
+markdown: kramdown
 exclude: [vendor, Gemfile, Gemfile.lock, Guardfile, README.md, TUTORIAL.md, CNAME]
 compress_html:
   clippings: all
