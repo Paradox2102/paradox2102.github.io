@@ -3,7 +3,7 @@
 <header>
   <!-- header -->
   <div id="main-header"  style="">
-    <a href="/"><img class="img-responsive" style="float:left;" src="/resources/img/logos/paradox_logo_2016.png"/></a>
+    <a href="/"><img class="img-responsive" style="float:left;" src="/resources/img/logos/paradox_logo_2016.png" alt="paradox_logo_2016"/></a>
     <span style="font-family: 'Share Tech Mono';">Team Paradox 2102</span>
   </div>
     <nav id="main-menu" data-spy="affix" data-offset-top="150" data-offset-bottom="0" class="navbar navbar-inverse">
@@ -57,6 +57,12 @@
                 <li><a href="/archive/docs/">Docs</a></li>
                 <li><a href="/archive/designs/">Team Designs</a></li>
                 <li><a href="/archive/photos/">Photos</a></li>
+                <li class="divider"></li>
+                {% for post in site.posts limit:5 %}
+                  <li><a href="{{ post.url}}">{{post.title}}</a></li>
+                {% endfor %}
+                <li class="divider"></li>
+                <li><a href="/posts/archive/">Post Archives</a></li>
               </ul>
             </li>
           </ul>
