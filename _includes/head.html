@@ -2,26 +2,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{{ site.keywords }}">
     <meta name="theme-color" content="#f04530">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- css -->
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/css/paradox.css">
+
     {% if page.forohfor %}
     <link rel="stylesheet" href="/resources/404/404.css">
     {% else %}
     <!-- No 404 CSS needed on this page -->
     {% endif %}
+
     <link rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.css">
+
     {% if page.gallery %}
     <link rel="stylesheet" href="/resources/gallery/simple-lightbox/simplelightbox.min.css">
     {% else %}
     <!-- No Lightbox needed on this page -->
     {% endif %}
-    
+
     <!--Favicon stuff o,o -->
     <link rel="apple-touch-icon" sizes="57x57" href="/resources/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/resources/img/favicon/apple-icon-60x60.png">
@@ -40,27 +47,24 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/resources/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
+
+    <!-- js -->
     {% if jekyll.environment == 'production' %}
     <!-- Incuding Google Evilness -->
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-62312902-1', 'auto');
-    ga('require', 'linkid', 'linkid.js');
-    ga('send', 'pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-62312902-1', 'auto');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
     </script>
-    {% else %} 
-    <!-- No Evilness Found -->
-    {% endif %}
-    {% if jekyll.environment == 'production' %}
-    {% else %} 
-    <!-- Including Auto Reload -->
+    {% else %}
+    <!-- No Evilness Found ... include autoreload -->
     <script src="//paradox-dev-wferr.c9.io:8081/livereload.js"></script>
     {% endif %}
-    
+
     <!-- Auto Generated SEO -->
     {% seo %}
     <!-- End Auto-Gen SEO -->

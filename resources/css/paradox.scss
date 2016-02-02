@@ -63,3 +63,63 @@
 .left {
   text-align: left;
 }
+
+/*
+  page header styles
+**/
+#main-header {
+  display:flex;align-items:center;font-size:72px;height:150px;background-color:#DCDE60;
+}
+
+/*
+  main navigation bar and menu styles
+**/
+.menu-padding {
+    padding-top:55px;
+}
+
+.navbar,
+.navbar ul,
+.navbar-nav li a {
+    background-color: #B75131 !important;
+  }
+
+.navbar-nav li a:hover {
+  background-color: #A1462A !important;
+}
+
+.navbar-nav li.divider {
+  background-color: #fff;
+}
+
+/*
+  home page carousel styles
+**/
+#carousel-home2 .item{
+    height: 360px;
+}
+
+#carousel-home2 .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 360px;
+}
+
+
+/*** RESPONSIVE CSS ***/
+
+/*
+  media based styles for any elements that need adjusting when screen is < 992px
+**/
+@media (max-width: 991px) {
+    #main-header {font-size: 22px;}
+    #carousel-home2 .item{
+        height: inherit;
+    }
+
+    #carousel-home2 .item img {
+        position: relative;
+        min-height: 100px;
+    }
+}
