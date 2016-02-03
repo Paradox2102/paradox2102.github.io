@@ -19,7 +19,7 @@ Make Simple Lists
 
 ---
 
-##You can include awesome pictures!
+## You can include awesome pictures!
 
 ![Battle At the Border](/docs/resources/img/example.jpg){: .image-fix }
 
