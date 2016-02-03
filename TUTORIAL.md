@@ -1,11 +1,11 @@
-##Live Preview Of Paradox Site
+## Live Preview Of Paradox Site
 ---
 
-###Install
+### Install
 
     - bundle install
     
-###Running
+### Running
 
     - Two terminal tabs
     - "guard" in one of them

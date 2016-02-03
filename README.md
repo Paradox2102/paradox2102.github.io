@@ -36,7 +36,7 @@ to to [this page](http://bundler.io/rationale.html) for information on the hows 
 
 ---
 
-##Todo List
+## Todo List
 
 -   Add Dynamic Reizing NavBar [Example](http://www.bootply.com/109943)
     - Add Image to Navbar
