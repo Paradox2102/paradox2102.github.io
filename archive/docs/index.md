@@ -3,9 +3,9 @@ layout: page-centered
 title: Docs
 category: docs
 ---
-##Here is a List of all of our Docs!
+## Here is a List of all of our Docs!
 
-####Hover over links for more information.
+#### Hover over links for more information.
 
 Team Building Resources
     

@@ -6,9 +6,9 @@ layout: page-centered
 
 We know that the prospect of starting a FLL team can be daunting. Our goal is to make it less so. Here you can find some quick, basic insight to help get you off the ground and support opportunities to help you soar. 
 
-##Getting off the Ground
+## Getting off the Ground
 
-###The Challenge
+### The Challenge
 is released in late August and Qualifying Tournaments are held during the weekends of November. Teams can advance from the qualifying tournaments on to regional competitions during early December (our local one is at Legoland!), and from there they move onto World’s in Saint Louis in April. The Challenge has three main parts: the Robot Game, the Project and Core Values. While the Robot Game and Project change every year, revolving around the common theme of the Challenge, Core Values are always the same.
 
 #### Robot Game:

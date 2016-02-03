@@ -4,7 +4,7 @@ permalink: /posts/archive/
 title: Blog Archive
 ---
 
-##Posts
+## Posts
 Here you can find all the blog posts.. Good Luck ( &#8984; + F )
 <hr>
 

@@ -3,4 +3,4 @@ layout: page
 gallery: true
 ---
 
-#Team Paradox Photo Gallery
+# Team Paradox Photo Gallery
