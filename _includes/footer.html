@@ -1,10 +1,25 @@
-<footer>
-  <hr>
-  <ul class="list-inline centered">
-    <li><p>Powered by <a href="http://jekyllrb.com/">Jekyll</a> Hosted on <a href="https://github.com/Paradox2102/paradox2102.github.io">Github</a></p></li>
-    <li>&#151;</li>
-    <li><P>&copy; {{ site.time | date: '%Y' }} {{ site.shortname }}</p></li>
-    <li>&#151;</li>
-    <li><p>Email us <a href="mailto:{{ site.email }}">{{ site.email }}</a></p></li>
-  </ul>
+<!-- Using snippets from http://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates/ -->
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+    
+    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
+    <a href="{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
+    <a href="{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+    <a href="{{ site.github }}"><i class="fa fa-github"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a href="{{ site.url }}">Home</a> ·
+      <a href="/team/branches/">About</a> ·
+      <a href="/team/contact/">Contact</a>
+    </p>
+    
+      <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a> Hosted on <a href="https://github.com/Paradox2102/paradox2102.github.io">Github</a></p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.shortname }}</p>
+  </div>
+
 </footer>

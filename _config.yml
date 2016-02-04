@@ -1,8 +1,8 @@
 # Site settings #
 #################
 
-title: Team Paradox
-shortname: Paradox 2102
+title: Team Paradox 2102
+shortname: Team Paradox 2102
 
 description: Team Paradox 2102 First Robotics Team Based in San Dieguito Academy
 keywords: FRC, Robotics, TeamParadox, 2102, SDA, San Dieguito Academy, First
@@ -23,6 +23,8 @@ first: "http://www.firstinspires.org/"
 bluealliance: "http://www.thebluealliance.com/team/2102"
 #Site SCHOOL
 sda: "http://sd.sduhsd.net/"
+#Site Github
+github: "https://github.com/paradox2102/"
 
 # Jekyll-SEO-TAG settings #
 ###########################
