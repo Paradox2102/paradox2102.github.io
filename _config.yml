@@ -40,6 +40,9 @@ social:
 # Development settings #
 ########################
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
 
 exclude: [vendor, Gemfile, Gemfile.lock, Guardfile, README.md, TUTORIAL.md, CNAME]
 compress_html:
