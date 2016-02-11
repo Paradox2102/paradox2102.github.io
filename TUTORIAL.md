@@ -1,4 +1,4 @@
-## Live Preview Of Paradox Site
+## Live Preview Of Paradox Site on C9
 ---
 
 ### Install
@@ -7,10 +7,6 @@
     
 ### Running
 
-    - Two terminal tabs
-    - "guard" in one of them
-    - "jekyll serve --host $IP --port $PORT --baseurl ''" In the other
-    - Site Will Have error for insecure content, ignore error. 
+    - "jekyll serve --host $IP --port $PORT --baseurl ''"
     - https://paradox-dev-wferr.c9.io
-    - Enjoy Live Reload
     
