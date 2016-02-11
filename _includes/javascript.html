@@ -1,19 +1,21 @@
 <section class="javascript">
-    <script src="/resources/js/jquery-1.11.3.min.js"></script>
-    <script src="/resources/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Lightbox2 -->
-    {% if page.gallery %}
-    <script src="/resources/gallery/simple-lightbox/simple-lightbox.min.js"></script>
-    {% endif %}
-    <!-- Custom Javascript -->
-    <!-- animated menu hamburger via codepen.io/esassaman/pen/wrsvx/ -->
-    <script>
+  <script src="/resources/js/jquery-1.11.3.min.js"></script>
+  <script src="/resources/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Lightbox2 -->
+  {% if page.gallery %}
+  <script src="/resources/gallery/simple-lightbox/simple-lightbox.min.js"></script>
+  {% endif %}
+  <!-- Custom Javascript -->
+  <script src="/resources/js/konami.min.js"></script>
+
+  <script>
+    <!-- Animated menu hamburger via http://codepen.io/esassaman/pen/wrsvx/ -->
     $(document).ready(function() {
       $(".navbar-toggle").on("click", function() {
           $(this).toggleClass("active");
       });
 
-      //Navbar Sticky JS
+      <!-- navbar sticky js -->
       var menu = $('#main-menu');
       var origOffsetY = menu.offset().top;
 
@@ -28,18 +30,14 @@
          }
        }
        document.onscroll = scroll;
+
+      <!-- TODO: add explanation for this code -->
+       Konami.code(function() {
+         $('body').css('background-image', 'url("/resources/other/cena.jpg")');
+         var audioElement = document.createElement('audio');
+         audioElement.setAttribute('src', '/resources/other/cena.mp3');
+         audioElement.setAttribute('autoplay', 'autoplay');
+       });
     });
-    </script>
-    <!-- Konami Code -->
-    <script src="/resources/js/konami.js"></script>
-    <script>
-    var john_cena = new Konami();
-        john_cena.code = function() {
-            $('body').css('background-image', 'url("/resources/other/cena.jpg")');
-            var audioElement = document.createElement('audio');
-            audioElement.setAttribute('src', '/resources/other/cena.mp3');
-            audioElement.setAttribute('autoplay', 'autoplay');
-        };
-    john_cena.load();
-    </script>
+   </script>
 </section>
