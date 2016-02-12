@@ -10,6 +10,7 @@
   <!-- Custom Javascript -->
   <script src="/resources/js/konami.js"></script>
   <script>
+    $(document).ready(function() {
       var john_cena = new Konami();
       john_cena.code = function() {
             console.log("AND HIS NAME IS...");
@@ -19,16 +20,13 @@
             audio_cena.setAttribute('autoplay', 'autoplay');
       };
       john_cena.load();
-  </script>
-
-  <script>
-    // Animated menu hamburger via codepen.io/esassaman/pen/wrsvx/
-    $(document).ready(function() {
-      $(".navbar-toggle").on("click", function() {
-          $(this).toggleClass("active");
       });
+  </script>
+  
+  <!-- Sticky Navbar -->
+  <script>
+    $(document).ready(function() {
 
-      // Navbar Sticky JS
       var menu = $('#main-menu');
       var origOffsetY = menu.offset().top;
 

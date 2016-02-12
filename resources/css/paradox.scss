@@ -22,34 +22,6 @@
   max-height: 100%;
 }
 
-
-/*Via http://codepen.io/esassaman/pen/wrsvx/ */
-
-.navbar-toggle {
-  .icon-bar {
-    &:nth-of-type(2) {
-      top: 1px;
-    }
-    position: relative;
-    transition: all 200ms ease-in-out;
-  }
-  &.active .icon-bar {
-    &:nth-of-type(1) {
-      top: 6px;
-      transform: rotate(45deg);
-    }
-    &:nth-of-type(2) {
-      background-color: transparent;
-    }
-    &:nth-of-type(3) {
-      top: -6px;
-      transform: rotate(-45deg);
-    }
-  }
-}
-
-/* end Codepen */
-
 .carousel-caption {
   font-weight: 900;
   background: rgba(0, 0, 0, 0.5);
@@ -92,9 +64,14 @@
   background-color: #AA3921 !important;
 }
 
+.navbar-inverse .navbar-collapse {
+  border-color: #AA3921;
+}
+
 .navbar-nav li.divider {
   background-color: #fff;
 }
+
 
 /*
   home page carousel styles
