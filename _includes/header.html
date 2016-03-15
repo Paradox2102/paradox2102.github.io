@@ -20,52 +20,73 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Posts <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                {% for post in site.posts limit:5 %}
-                    <li><a href="{{ post.url}}">{{post.title}}</a></li>
-                {% endfor %}
-                <li class="divider"></li>
-                <li><a href="/posts/archive/">Archive</a></li>
-              </ul>
-            </li>
-            <li><a href="/team/robots/">Robots</a></li>
-            <li class="dropdown">
-              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FLL <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/team/fll-ftc/fll-mentoring/">FLL Mentoring</a></li>
-                <li><a href="/team/fll-ftc/fll-qualifing/">FLL Qualifying Tournament</a></li>
-                <li><a href="/team/fll-ftc/fll-map/">FLL Team Map</a></li>
-              </ul>
-            </li>
-            <li><a href="/team/sponsors/">Sponsors</a></li>
-            <li class="dropdown">
+              <!-- about -->
+             <li class="dropdown">
               <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/team/branches/">Paradox</a></li>
-                <li><a href="/team/first/">FIRST</a></li>
+                <li><a href="/team">Paradox</a></li>
+                <li><a href="/robots/">Robots</a></li>
+                
                 <li><a href="/schedule/">Schedule</a></li>
               </ul>
             </li>
-            <li><a href="/team/contact/">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
+            <!-- FIRST -->
             <li class="dropdown">
-              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archive <span class="caret"></span></a>
+              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">FIRST <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/archive/docs/">Docs</a></li>
-                <li><a href="/archive/designs/">Team Designs</a></li>
-                <li><a href="/archive/photos/">Photos</a></li>
-                <li class="divider"></li>
-                {% for post in site.posts limit:5 %}
-                  <li><a href="{{ post.url}}">{{post.title}}</a></li>
-                {% endfor %}
-                <li class="divider"></li>
-                <li><a href="/posts/archive/">Post Archives</a></li>
+                <li><a href="/first/">What is FIRST?</a></li>
+                <li><a target="_blank" href="http://www.firstinspires.org/robotics/flljr">Jr. FLL</a></li>
+                <li><a target="_blank" href="http://www.firstinspires.org/robotics/fll">FLL</a></li>
+                <li><a target="_blank" href="http://www.firstinspires.org/robotics/ftc">FTC</a></li>
+                <li><a target="_blank" href="http://www.firstinspires.org/robotics/frc">FRC</a></li>
               </ul>
             </li>
+
+            <!-- outreach -->
+            <li class="dropdown">
+              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Outreach <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/outreach/events">Events</a></li>
+                <li><a href="/outreach/fll-mentoring">FLL Mentoring</a></li>
+                <li><a href="/outreach/ftc-mentoring">FTC Mentoring</a></li>
+                <li><a href="/outreach/frc-mentoring">FRC Mentoring</a></li>
+                <li><a href="/outreach/summer-programs">Summer Programs</a></li>
+              </ul>
+            </li>
+
+            <!-- gallery -->
+            <li class="dropdown">
+              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gallery <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/gallery/pictures/">Pictures</a></li>
+                <li><a href="/gallery/logos">Logos</a></li>
+                <li><a href="/gallery/videos">Videos</a></li>
+              </ul>
+            </li>
+
+            <!-- resources -->
+            <li class="dropdown">
+              <a data-proofer-ignore href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/team/resources/geared-learning">Geared Learning Box</a></li>
+                <li><a href="/team/resources/awards">Awards</a></li>
+                <li><a href="/team/resources/handbooks">Handbooks</a></li>
+              </ul>
+            </li>
+
+            <!-- sponsors -->
+            <li><a href="/sponsors/">Sponsors</a></li>
+
+            <!-- contact -->
+            <li><a href="/contact/">Contact</a></li>
           </ul>
+
+          <!-- right aligned nav items -->
+          <ul class="nav navbar-nav navbar-right">
+            <!-- posts -->
+            <li><a href="/posts/archive/">Posts</a></li>
+          </ul>
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
   </nav>
