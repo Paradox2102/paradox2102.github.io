@@ -6,11 +6,11 @@ script:
   - echo "Building Development Site"
   - bundle exec "jekyll build --profile"
   - echo "Testing Site"
-  - bundle exec htmlproofer ./_site --disable-external --check-html --check-favicon --assume_extension true
+  - bundle exec htmlproofer ./_site --disable-external --check-html --check-favicon --assume-extension
   - echo "Building Production Site"
   - bundle exec "JEKYLL_ENV=production jekyll build --profile"
   - echo "Testing Site"
-  - bundle exec htmlproofer ./_site --disable-external --check-html --check-favicon --assume_extension true
+  - bundle exec htmlproofer ./_site --disable-external --check-html --check-favicon --assume-extension
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
