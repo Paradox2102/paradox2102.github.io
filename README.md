@@ -1,5 +1,5 @@
 # Team Paradox 2102
-[![Build Status](https://travis-ci.org/Paradox2102/paradox2102.github.io.svg?branch=master)](https://travis-ci.org/Paradox2102/paradox2102.github.io)
+[![Build Status](https://travis-ci.org/Paradox2102/paradox2102.github.io.svg?branch=master)](https://travis-ci.org/Paradox2102/paradox2102.github.io)   [![Program on Covenvy](https://img.shields.io/badge/Codenvy-Program-green.svg)](https://codenvy.io/f?id=factory6evx1c9r4jkkn1d1)
 
 Jekyll Site for Team Paradox
 
