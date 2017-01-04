@@ -44,7 +44,7 @@
   page header styles
 **/
 #main-header {
-  display:flex;align-items:center;font-size:72px;height:150px;background-color:#D59E2A;
+  display:flex;align-items:center;font-size:72px;height:150px;background-color:#FEC107;
 }
 
 /*
@@ -57,15 +57,15 @@
 .navbar,
 .navbar ul,
 .navbar-nav li a {
-    background-color: #D5482A !important;
+    background-color: #D32F2E !important;
   }
 
 .navbar-nav li a:hover {
-  background-color: #AA3921 !important;
+  background-color: #C62828 !important;
 }
 
 .navbar-inverse .navbar-collapse {
-  border-color: #AA3921;
+  border-color: #C62828;
 }
 
 .navbar-nav li.divider {
